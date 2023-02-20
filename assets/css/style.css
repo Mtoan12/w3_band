@@ -490,3 +490,28 @@ html {
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .about-teams {
+    flex-direction: column;
+    gap: 40px !important;
+  }
+
+  .tour-section .tour-places {
+    flex-direction: column;
+  }
+
+  #contact .contact-body {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #contact .address {
+    width: 100%;
+  }
+
+  #contact .message-form {
+    width: 100%;
+    margin-top: 32px;
+  }
+}
